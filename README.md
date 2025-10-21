@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# Personal Website Workshop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+ This project was created as part of a web development workshop to help students build a personal website. Feel free to clone the repository and build your own website!
 
-In the project directory, you can run:
+ ## Website Features
 
-### `npm start`
+* **🏠 Home Page** - Welcome section with introduction
+* **👤 About Page** - Personal story, education, and picture
+* **💼 Projects Page** - Show off projects with easy Github integration
+* **📞 Contact Page** - Social media links and contact information
+* **🧭 Navigation Bar** - Navigation between all pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React
+* Bootstrap
+* React Router
+* Github Pages
 
-### `npm test`
+# Getting Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌱 The Basics
+Before you begin, make sure you have the following installed on your computer.
 
-### `npm run build`
+* Node.js
+* Git
+* Github account
+* Your favorite IDE
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For Windows users, we recommend Git Bash, but other command lines like PowerShell should work fine too!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⬇️ Installation & Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone** or download this repository (we recommend making a folder in any **non-cloud** based locations, like your Desktop or Downloads)
+2. **Navigate** to the project folder
+3. **Install** dependencies (these downloads require packages)
 
-### `npm run eject`
+```
+npm install
+```
+4. Start the development server
+```
+npm start
+```
+5. Your browser should open to http://localhost:3000 and you should see the website running
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎨 Customization Guide
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* We recommend customizing all the pages of the website with your information and these files can be found in *src/components*
+* Add your photos to the *public/images/ folder* and update the image paths in the component files
+* For things like fonts, color, animations and layouts, look into the *.css files* (files that specify how the web elements look)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌐 Publishing Your Website
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Your website can be published online and accessed by a specific link. 
 
-## Learn More
+⚠️ This is one of the trickier parts of the workshop, and although the steps on how to do publish are outlined below, we recommend browsing additional resources online before doing so.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Push your code to GitHub:**
+```
+git add .
+git commit -m "My personal website"
+git push origin main
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Install GitHub pages package:**
+```
+npm install --save-dev gh-pages
+```
+3. **Add Deployment scripts to package.json:** Add these lines to *package.json*
+```
+   {
+     "homepage": "https://YOUR_USERNAME.github.io/personal-website-template",
+     "scripts": {
+       "predeploy": "npm run build",
+       "deploy": "gh-pages -d build"
+     }
+   }
+```
+4. **Deploy to GitHub pages:**
+```
+npm run deploy
+```
+5. **Website is live:** You can find it live at https://YOUR_USERNAME.github.io/NAME_OF_THIS_REPOSITORY
 
-### Code Splitting
+## 🎯 Next Steps & Ideas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Once your website is running, here's some ideas on improving it:
 
-### Analyzing the Bundle Size
+**Content:**
+1. Add more detailed project descriptions
+2. Add your resume and make it saveable
+3. Create a hobbies section with a photo gallery
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Technical:**
+1. Implement dark/light mode
+2. Add loading animations
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Design:**
+1. Create a custom colour scheme
+2. Add CSS (style) animations and transitions
+3. Add interactive elements
