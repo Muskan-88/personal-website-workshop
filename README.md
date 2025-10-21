@@ -2,7 +2,7 @@
 
 ## Overview
 
- This project was created as part of a web development workshop to help students build a personal website. Feel free to clone the repository and build your own website!
+This project was created as part of a web development workshop for the UVIC WECS (Women in Engineering & Computer Science) club to help students build a personal website. Feel free to clone the repository and build your own website!
 
  ## Website Features
 
@@ -11,6 +11,8 @@
 * **💼 Projects Page** - Show off projects with easy Github integration
 * **📞 Contact Page** - Social media links and contact information
 * **🧭 Navigation Bar** - Navigation between all pages
+
+Visit the website at: https://muskan-88.github.io/personal-website-workshop/
 
 ## 🛠 Built With
 
