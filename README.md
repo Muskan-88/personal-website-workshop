@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project was built as part of a web development workshop for the UVIC WECS (Women in Engineering & Computer Science) club to help students build a personal website. Feel free to clone the repository and build your own website!
+This project was built for a web development workshop for the UVIC WECS (Women in Engineering & Computer Science) club to help students build a personal website. Feel free to clone the repository and build your own website!
 
  ## Website Features
 
